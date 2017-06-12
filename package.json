@@ -1,0 +1,22 @@
+{
+  "name": "teamtreehouse-express-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanderSangen88/TeamTreehouse-Express-Basics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanderSangen88/TeamTreehouse-Express-Basics/issues"
+  },
+  "homepage": "https://github.com/vanderSangen88/TeamTreehouse-Express-Basics#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
