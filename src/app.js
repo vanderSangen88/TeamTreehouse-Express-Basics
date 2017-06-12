@@ -1,11 +1,20 @@
 'use strict';
 
-var express = require('express'); // Express is installed, imported and ready to use
+var express = require('express'), // Express is installed, imported and ready to use
+	  posts = require('./mock/posts.json');
 
 var app = express();
 
+debugger;
+
 app.get("/", (req, res) => {
-	res.send("I Love Treehouse!");
+	res.send("<h1>I am truely loving Treehouse!</h1>");
 });
 
-app.listen(3000);
+app.get("/blog", (req, res) => {
+	res.send(posts);
+});
+
+app.listen(3000, () => {
+	console.log("The frontend server is running on port 3000!");
+});
