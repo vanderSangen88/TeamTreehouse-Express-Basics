@@ -37,3 +37,14 @@ Second terminal: nodemon --debug-brk src/app.js
 - HTTP Responses: http://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 - Express documentation for the response object: http://expressjs.com/api.html#res
 - Detect device type or “bot” through the request object: https://github.com/rguerreiro/express-device
+
+## 4.1 What is Template Rendering?
+A comparison of JavaScript Template Engines: https://strongloop.com/strongblog/compare-javascript-templates-jade-mustache-dust/
+
+## 4.2 What is Jade? > Renamed PugJS
+The PugJS Website: https://pugjs.org/api/getting-started.html
+
+## 4.3 Using Jade > Pug in your Express App
+- Hipster Ipsum: http://hipsum.co/
+- Use a template engine other than Jade using the consolidate package: https://www.npmjs.com/package/consolidate
+- Express’s app.set method: http://expressjs.com/4x/api.html#app.set
