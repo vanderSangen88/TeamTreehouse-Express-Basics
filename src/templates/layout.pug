@@ -1,8 +1,7 @@
 doctype html
 html(lang="en")
-	head
-		title Landing Page
+	include ./partials/_head.pug
 
 	body#page-top
-		nav#mainNav.navbar.navbar-default.navbar-fixed-top
-block content
+		include ./partials/_nav.pug
+		block content

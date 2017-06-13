@@ -49,5 +49,18 @@ The PugJS Website: https://pugjs.org/api/getting-started.html
 - Use a template engine other than Jade using the consolidate package: https://www.npmjs.com/package/consolidate
 - Express’s app.set method: http://expressjs.com/4x/api.html#app.set
 
-## 4.4 Scaffolding Your Project's Templates
+## 4.5 Scaffolding Your Project's Templates
 - Jade block content inheritance: http://jade-lang.com/reference/inheritance/
+
+## 4.6 SYPT - adding "partials"
+- The include directive: http://jade-lang.com/reference/includes/
+- “Partials” as a convention: https://www.google.com/search?q=partials&oq=partials&aqs=chrome..69i57j0l5.1257j0j7&sourceid=chrome&es_sm=91&ie=UTF-8#q=partials+templates
+
+## 5.1 Setting Up the Express Static Server in Development
+- The app.use method: http://expressjs.com/4x/api.html#app.use
+- Express’s Static Middleware: http://expressjs.com/4x/api.html#express.static
+- From the express docs: “An Express application is essentially a series of middleware calls.”
+
+!! Middleware is the logic that tells Express how to handle a request inbetween the time a request is made by the client but before it arrives at a route.
+
+## 5.2 Add Static to the Layout Template

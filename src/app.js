@@ -5,6 +5,8 @@ var express = require('express'), // Express is installed, imported and ready to
 
 var app = express();
 
+app.use('/static', express.static(__dirname + '/public'));
+
 app.set('view engine', 'pug');
 app.set('views', __dirname + '/templates');
 
