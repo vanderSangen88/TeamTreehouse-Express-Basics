@@ -64,3 +64,13 @@ The PugJS Website: https://pugjs.org/api/getting-started.html
 !! Middleware is the logic that tells Express how to handle a request inbetween the time a request is made by the client but before it arrives at a route.
 
 ## 5.2 Add Static to the Layout Template
+- Google Fonts: https://developers.google.com/fonts/docs/getting_started
+
+## 6.1 Making Lists in Pug Templates
+- Jade let’s you iterate over objects: http://jade-lang.com/reference/iteration/ However, in our case, iterating over our “mock” post data as an object would be even less realistic. In a JavaScript application, when data is meant to be iterated through, it will typically be provided in an array format.
+
+- Note the other syntax you can use. For example for post in posts.
+
+## 6.2 Using Logic in Pug Templates
+- The res.locals object: http://expressjs.com/4x/api.html#res.locals
+- Jade’s boolean/conditional syntax: http://jade-lang.com/reference/conditionals/
