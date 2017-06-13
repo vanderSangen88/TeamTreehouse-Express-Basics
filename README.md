@@ -48,3 +48,6 @@ The PugJS Website: https://pugjs.org/api/getting-started.html
 - Hipster Ipsum: http://hipsum.co/
 - Use a template engine other than Jade using the consolidate package: https://www.npmjs.com/package/consolidate
 - Express’s app.set method: http://expressjs.com/4x/api.html#app.set
+
+## 4.4 Scaffolding Your Project's Templates
+- Jade block content inheritance: http://jade-lang.com/reference/inheritance/
