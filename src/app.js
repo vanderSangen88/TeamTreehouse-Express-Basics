@@ -5,14 +5,14 @@ var express = require('express'), // Express is installed, imported and ready to
 
 var app = express();
 
-debugger;
-
 app.get("/", (req, res) => {
 	res.send("<h1>I am truely loving Treehouse!</h1>");
 });
 
-app.get("/blog", (req, res) => {
-	res.send(posts);
+app.get("/blog/:title", (req, res) => {
+	var title = req.params.title;
+	var post = posts[title]
+	res.send(post);
 });
 
 app.listen(3000, () => {

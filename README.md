@@ -1,4 +1,4 @@
-# TeamTreehouse-Express-Basics
+# TeamTreehouse-Express-Basics - Teacher's Notes
 
 ## 1.1	An Intro: Express.js is amazing
 
@@ -29,3 +29,8 @@
 ## 2.3 Interactive Debugging and Exploratory Programming
 First terminal: node-inspector
 Second terminal: nodemon --debug-brk src/app.js
+
+## 3.1 Requests and the request object
+- The request object: http://expressjs.com/api.html#req
+- HTTP Treehouse Workshop: https://teamtreehouse.com/library/http-do-you-get-it
+- HTTP Request Methods: http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods
