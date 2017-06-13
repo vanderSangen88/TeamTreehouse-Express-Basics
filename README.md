@@ -74,3 +74,11 @@ The PugJS Website: https://pugjs.org/api/getting-started.html
 ## 6.2 Using Logic in Pug Templates
 - The res.locals object: http://expressjs.com/4x/api.html#res.locals
 - Jade’s boolean/conditional syntax: http://jade-lang.com/reference/conditionals/
+
+## 6.4 Where do I go from here?
+- Documentation on the res.json method: http://expressjs.com/4x/api.html#res.json
+- How to turn url’s into “GET” query’s: https://teamtreehouse.com/library/ajax-basics/ajax-concepts/get-and-post
+- The most popular node client for Mongodb: http://mongoosejs.com/
+- The MEAN Stack Generator: http://mean.io/#!/
+- A popular node client for PostgreSQL: https://github.com/brianc/node-postgres
+- A popular node client for MySQL: https://github.com/felixge/node-mysql/
