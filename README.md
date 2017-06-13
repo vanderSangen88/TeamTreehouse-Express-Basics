@@ -16,8 +16,6 @@
 - You can read about it in the express documentation: [http://expressjs.com/4x/api.html#app.listen](http://expressjs.com/4x/api.html#app.listen
 )
 
----
-
 ## 2.1 Adding Routes to the App
 - Hipster Ipsum: http://hipsum.co/
 
@@ -34,3 +32,8 @@ Second terminal: nodemon --debug-brk src/app.js
 - The request object: http://expressjs.com/api.html#req
 - HTTP Treehouse Workshop: https://teamtreehouse.com/library/http-do-you-get-it
 - HTTP Request Methods: http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods
+
+## 3.2 Responses and the Response Object
+- HTTP Responses: http://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+- Express documentation for the response object: http://expressjs.com/api.html#res
+- Detect device type or “bot” through the request object: https://github.com/rguerreiro/express-device
